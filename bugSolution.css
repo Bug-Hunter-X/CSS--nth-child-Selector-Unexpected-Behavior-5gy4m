@@ -1,0 +1,12 @@
+/* bug.css - Incorrect styling */
+li:nth-child(2n) {
+  background-color: yellow;
+}
+
+/* bugSolution.css - Correct styling */
+li:nth-child(2n+1) {
+  background-color: yellow;
+}
+li:nth-child(2n) {
+  background-color: lightblue;
+} 
