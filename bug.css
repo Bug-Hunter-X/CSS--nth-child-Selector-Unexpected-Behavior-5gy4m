@@ -1,0 +1,1 @@
+The CSS rule `:nth-child(n)` can sometimes lead to unexpected results if you are not careful with the index value n.  For example, if you want to style every other element, you might assume `:nth-child(2n)` would work. However, this selects the 2nd, 4th, 6th... elements.  If you want to start with the *first* element, you would need `:nth-child(2n+1)`.
